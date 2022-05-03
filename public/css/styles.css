@@ -23,12 +23,17 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background-color: #ebebeb;
+    padding-top: 138px;
+    z-index: 5;
 }
 
 header {
     background-color: #EAC926;
     border-top: 0px;
-
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
 }
 .logo-busqueda-subtituloHeader{
     padding: 1%;
